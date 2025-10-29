@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Create Account</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="logo">Facebook</h1>
+    <div class="form-box">
+        <h2>Create a New Account</h2>
+        <p class="subtitle">It's quick and easy</p>
+
+        <form>
+            <div class="row">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Surname" required>
+            </div>
+
+            <label>Date of Birth</label>
+            <input type="date" required>
+
+            <label>Gender</label>
+            <div class="gender">
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Custom</label>
+            </div>
+
+            <input type="text" placeholder="Email or Mobile number" required>
+
+            <input type="password" placeholder="New Password" required>
+
+            <label>Qualification</label>
+            <div class="qualification">
+                <label><input type="radio" name="qualification"> SSC</label>
+                <label><input type="radio" name="qualification"> INTER</label>
+                <label><input type="radio" name="qualification"> B.TECH</label>
+                <label><input type="radio" name="qualification"> M.TECH</label>
+            </div>
+
+            <p class="small-text">People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+
+            <p class="small-text">
+                By clicking Sign Up, you agree to our <a href="#">Terms</a>,
+                <a href="#">Data Policy</a> and
+                <a href="#">Cookie Policy</a>.
+            </p>
+
+            <button class="btn">Sign Up</button>
+
+            <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
